@@ -1,0 +1,91 @@
+body{
+    width: 90%;
+    margin: auto;
+    background-image: url(../img/fons.png);
+}
+
+.header{
+    margin-bottom: 25px;
+}
+
+/* classes flex capçelera*/
+.flex-container{
+    display:flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    font-size: 16px;
+    margin: auto;
+}
+
+.flex-container > div {
+  margin: 5px;
+  padding: 5px;
+}
+
+.header1{
+    flex-basis: 400px;
+}
+
+.header2{
+    text-align: center;
+    flex-grow: 1;
+    vertical-align: middle;
+    font-size: 1.2em;
+    color: brown;
+}
+.header3{
+    flex-basis: 200px;
+    text-align: center;
+}
+
+/* flex menu capçelera*/
+.flex-containerCol{
+    height: 100%;
+    display:flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: end;
+    margin: auto;
+}
+
+/* classes dels icons de la capçelera*/
+.divIcon{
+    text-align: end;
+}
+
+.icon{
+    font-size: 25px; 
+    color:brown;
+    cursor: pointer;
+    padding-bottom: 3px;
+}
+
+/*classes del menu*/
+.menu{
+    height: 40px;
+    border-bottom: 2px solid brown ;
+}
+
+.botoMenu{
+    font-weight: bold;
+    background-color: brown;
+    color: white;
+    font-size: 1.1em;
+    cursor: pointer;
+    width: 150px;
+    height: 35px;
+}
+
+/*classes de la pantalla inicial*/
+.artInici {
+    height: 450px;
+    padding: auto;
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid brown ;
+}
+.divInici{
+    margin:auto;
+}
