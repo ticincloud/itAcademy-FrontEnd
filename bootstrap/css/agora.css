@@ -1,0 +1,69 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+body {
+    background-image: url(../img/crisp_paper_ruffles.png);
+}
+
+ion-icon {
+    color: #f33838;
+    font-size: 32px;
+}
+
+ion-icon.ibutton {
+    cursor: pointer;
+}
+
+.titolFons {
+    background-color: #f33838;
+    color: white !important;
+    font-weight: bold;
+}
+
+.titol {
+    color: #f33838 !important;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+@media screen and (max-width: 770px) {
+    .titol {
+        font-size: calc(100% + 1vw + 1vh);
+    }
+}
+
+.opcioMenu {
+    color: white !important;
+    font-weight: bold;
+}
+
+.opcioMenu.disabled {
+    color: gainsboro !important;
+}
+
+.artInici {
+    height: 500px;
+    /*background-image: url('../img/logogran.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;*/
+    margin-top: 20px;
+}
+
+.ocult {
+    display: none;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f00' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f00' viewBox='0 0 8 8'%3E%3Cpath d='M1.5 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.card {
+    background-color: cornsilk;
+}
